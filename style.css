@@ -3,12 +3,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #fffcf3;
-    color: #081a2c;
-    font-family: Tahoma;
-    font-size: 16px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
   }
   
-  h1 {
+  h2 {
     margin: 1em auto;
     text-align: center;
   }
@@ -26,9 +26,19 @@ body {
     margin: 0.5rem 0;
   }
 
-  input
- {
+  input {
   margin: 10px 0 0 0;
-  
   min-height: 2em;
 }
+
+input[type="submit"] {
+    display: block;
+    margin: 0.5em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #d7d7e1;
+    border-color: white;
+    border-radius: 20px;
+    min-width: 100px;
+  }
+  
